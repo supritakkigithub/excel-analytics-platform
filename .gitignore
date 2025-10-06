@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+*.log
+
+# Env & secrets
+.env
+.env.*
+client/.env
+server/.env
+
+# Build outputs
+build/
+dist/
+coverage/
+.cache/
+.tmp/
+
+# Frameworks
+.next/
+.out/
+.vercel/
+firebase-debug.log
+
+# Frontend artifacts
+client/build/
+client/dist/
+client/.next/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# App-specific
+uploads/
