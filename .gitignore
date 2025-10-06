@@ -10,8 +10,6 @@ package-lock.json
 # Env & secrets
 .env
 .env.*
-client/.env
-server/.env
 
 # Build outputs
 build/
@@ -25,11 +23,6 @@ coverage/
 .out/
 .vercel/
 firebase-debug.log
-
-# Frontend artifacts
-client/build/
-client/dist/
-client/.next/
 
 # OS/editor
 .DS_Store
